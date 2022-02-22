@@ -22,3 +22,15 @@ function each(collection, action) {
     }
 }
 module.exports.each = each;
+
+
+/**
+ * identifty: function takes in any value as an arguemtn and returns that value unchanged
+ * @param {any value} value : takes in any valkue as an input 
+ * @returns {any} : returns the input value unchanged.
+ */
+function identity(value) {
+    return value;
+}
+
+module.exports.identity = identity;
